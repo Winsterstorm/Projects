@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<script src="balls.js"></script>
-</head>
-<body>
-<canvas style="border: 1px solid black;" id="canvas_example" width="600" height="600"></canvas>
-<input type="button" id = "add_ball" value = "Поехали">
-<input type="text" id = "hah" value = "1">
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Flight </title>
+        <script src = "jumping_ball.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body class="body">
+        <div class = "main">
+            <canvas class="canvas" id = "canvas_example" width="1500" height="720" ></canvas>
+            
+        </div>
+        <div class="counter">
+            <input class = 'text' type="text" id = "counter" value = "0" readonly>
+        </div>
+        <div class="orient">
+            <input class = 'hello' type="text" id = "orient" value = "TAP SPACE TO PLAY" readonly>
+        </div>
+
+         <!--<br>
+         <div class="controls">
+            <input class  = "btn" type="button" id = "start" value="Go!">
+            <input class = "btn" type="button" id = "restart" value="Again">
+        </div>-->
+    </body>
 </html>

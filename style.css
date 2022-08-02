@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto&family=Square+Peg&display=swap');
+.main  {
+	width: 100%;
+	height: 100%;
+
+	
+}
+.body{
+	height: 720px;
+	width: 1500px;
+	margin: 0;
+}
+.canvas {
+	background: url('screen.png');
+
+
+}
+
+
+
+.controls {
+
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+
+}
+.btn {
+	border-radius: 10px;
+	float: left;
+	height: 80px;
+	box-sizing: border-box;
+	width: 50%;
+	font-size: 50px;
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+}
+.btn:first-child {
+	background: lightgreen;
+}
+.btn:last-child {
+	background: #e62c3e;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.counter {
+	position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    right: 100px;
+    background: transparent;
+}
+.text {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background: lightcoral;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: yellow;
+	outline: none;
+	border: 5px solid gold;
+
+}
+.orient {
+	position: absolute;
+	width: 51%;
+	height: 20%;
+	top: 250px;
+	left: 360px;
+}
+.hello {
+	border: none;
+	height: 100%;
+	width: 100%;
+	background: transparent;
+	font-size: 100px;
+	text-align: center;
+	cursor: auto;
+	outline: none;
+	font-family: 'Mouse Memoirs', sans-serif;
+	color: cornflowerblue;
+}
+
+
+
